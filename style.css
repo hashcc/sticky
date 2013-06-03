@@ -1,0 +1,63 @@
+h1,h2{
+position: relative;
+width: 100%;
+top: 0px;
+}
+
+h1{
+z-index: 100;
+}
+
+h2{
+z-index: 50;
+}
+
+.fixed {
+position: fixed;
+}
+
+/* à»â∫ÇÕÉfÉÇÇ…ä÷åWÇÃÇ»Ç¢êÆå`ópCSS */
+
+*{
+padding: 0px;
+margin: 0px;
+}
+
+h1{
+color: white;
+background-color: rgba(204, 204, 204, 0.8);
+background: -moz-linear-gradient(top, rgba(122,136,141, 0.7), rgba(166,176,182, 0.7));
+background: -webkit-gradient(linear, left top, left bottom, from(rgba(122,136,141, 0.7)), to(rgba(166,176,182, 0.7)));
+text-shadow: 1px 1px 1px #666;
+border: 1px solid #6A6F75;
+border-width: 1px 0px;
+padding: 5px 10px;
+font-size: 150%;
+}
+
+h2{
+background-color: #eee;
+padding: 5px 10px;
+font-size: 120%;
+}
+
+p{
+padding: 10px;
+}
+
+p#information{
+width: 100%;
+position: fixed;
+text-align: center;
+color: white;
+bottom: 0;
+background-color: rgba(0,0,0,0.6);
+border-top: 1px solid #aaa;
+box-shadow: -2px 0px 5px black;
+z-index: 9999;
+}
+
+ul li{
+padding: 10px;
+border-bottom: 1px solid #ddd;
+}
